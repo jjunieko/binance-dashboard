@@ -1,4 +1,4 @@
-import { store } from "../../redux/store";
+import { store } from "../redux/store";
 import { updatePrice } from "./cryptoSlice";
 
 export const setupWebSocket = () => {
