@@ -20,33 +20,30 @@ NPM ou Yarn
 ### Instalação e Execução
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/crypto-dashboard.git
+```bash 
+git clone https://github.com/seu-usuario/crypto-dashboard.git 
 cd crypto-dashboard
 Instale as dependências:
-
 npm install
-# ou
+```
+#### ou
+
+```bash 
 yarn install
 Execute a aplicação:
 
-bash
-Copiar código
-npm start
-# ou
-yarn start
+npm start ou yarn start
+```
 Abra o navegador e acesse http://localhost:3000
 
 Testes
 Para executar os testes, use o comando:
-
-bash
-Copiar código
-npm test
-# ou
-yarn test
+```bash 
+npm test ou yarn test
+```
 ### Estrutura do Projeto
-arduino
-Copiar código
+
+```bash 
 crypto-dashboard/
 │
 ├── public/
@@ -77,7 +74,4 @@ crypto-dashboard/
 ├── package.json
 └── README.md
 
-Notas
-O código está estruturado de forma modular e bem documentado para facilitar a manutenção e a escalabilidade.
-A UI foi desenhada para ser intuitiva e responsiva, garantindo uma boa experiência tanto em desktops quanto em dispositivos móveis.
-Implementações para tratamento de erros e reconexões automáticas garantem a robustez da aplicação.
+```
