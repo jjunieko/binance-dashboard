@@ -1,5 +1,3 @@
-// src/app/features/__tests__/store.test.tsx
-
 import { updatePrice } from '../crypto/cryptoSlice';
 import { store } from '../redux/store';
 
